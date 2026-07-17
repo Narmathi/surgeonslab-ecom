@@ -8,13 +8,13 @@ This application demonstrates component-based architecture, client-side routing,
 
 ## 🚀 Live Demo
 
-> https://your-vercel-url.vercel.app
+> [https://your-vercel-url.vercel.app](https://surgeonslab-ecom.vercel.app/)
 
 ---
 
 ## 📂 GitHub Repository
 
-> https://github.com/yourusername/surgeonslab
+> https://github.com/Narmathi/surgeonslab-ecom
 
 ---
 
@@ -276,9 +276,6 @@ npm run preview
 # 👨‍💻 Author
 
 **Narmathi GP**
-
-GitHub:
-https://github.com/Narmathi
 
 LinkedIn:
 [https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/narmathi-gp/)
