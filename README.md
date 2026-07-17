@@ -8,7 +8,7 @@ This application demonstrates component-based architecture, client-side routing,
 
 ## 🚀 Live Demo
 
-> [https://your-vercel-url.vercel.app](https://surgeonslab-ecom.vercel.app/)
+> [https://surgeonslab-ecom.vercel.app](https://surgeonslab-ecom.vercel.app/)
 
 ---
 
