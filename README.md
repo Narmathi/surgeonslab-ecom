@@ -55,7 +55,6 @@ The project was developed using modern React development practices with reusable
 - Search Products
 - Category Filter
 - Pagination
-- Empty State
 - Loading State
 - Lazy Loaded Images
 
@@ -134,7 +133,7 @@ App
 
 │     ├── Navbar
 
-│     ├── Outlet
+│     ├── Layout
 
 │     └── Footer
 
@@ -161,11 +160,6 @@ App
 └── Product Details
 
        ├── Product Hero
-
-       ├── Product Overview
-
-       ├── Product Specifications
-
        └── Related Products
 ```
 
@@ -204,7 +198,7 @@ Related Products
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/surgeonslab.git
+git clone https://github.com/Narmathi/surgeonslab-ecom.git
 ```
 
 Navigate to the project
@@ -274,8 +268,6 @@ npm run preview
 - User Authentication
 - Wishlist
 - Shopping Cart
-- Product Comparison
-- Dark Mode
 - Product Reviews
 - Image Gallery
 
@@ -286,7 +278,7 @@ npm run preview
 **Narmathi GP**
 
 GitHub:
-https://github.com/yourusername
+https://github.com/Narmathi
 
 LinkedIn:
-https://linkedin.com/in/yourprofile
+[https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/narmathi-gp/)
