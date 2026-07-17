@@ -1,75 +1,292 @@
-# React + TypeScript + Vite
+# 🏥 SurgeonsLab - Medical Technology Product Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive medical technology product catalog built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This application demonstrates component-based architecture, client-side routing, reusable UI components, responsive design, and clean software development practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> https://your-vercel-url.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 GitHub Repository
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+> https://github.com/yourusername/surgeonslab
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# 📖 Project Overview
 
+SurgeonsLab is a medical technology website that allows users to browse a catalog of medical simulation products.
+
+The application includes:
+
+- Home Page
+- Product Listing
+- Product Search
+- Category Filtering
+- Pagination
+- Product Details
+- Related Products
+
+The project was developed using modern React development practices with reusable components and TypeScript.
+
+---
+
+# ✨ Features
+
+## Home Page
+
+- Responsive Navigation Bar
+- Hero Section
+- Company Introduction
+- Featured Products
+- Responsive Footer
+
+---
+
+## Product Listing
+
+- 100 Mock Products
+- Responsive Product Grid
+- Search Products
+- Category Filter
+- Pagination
+- Empty State
+- Loading State
+- Lazy Loaded Images
+
+---
+
+## Product Details
+
+- Large Product Image
+- Product Description
+- Technical Specifications
+- Related Products
+- Back to Products Navigation
+
+---
+
+## Responsive Design
+
+Optimized for
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+---
+
+# 🛠 Tech Stack
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Lucide React Icons
+
+---
+
+# 📁 Folder Structure
+
+```text
+src
+│
+├── assets/
+│
+├── components/
+│   ├── common/
+│   ├── home/
+│   ├── layout/
+│   └── products/
+│
+├── constants/
+│
+├── data/
+│
+├── pages/
+│
+├── services/
+│
+├── types/
+│
+├── utils/
+│
+└── App.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 🏗 Project Architecture
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+App
 
+│
+
+├── Layout
+
+│     ├── Navbar
+
+│     ├── Outlet
+
+│     └── Footer
+
+│
+
+├── Home Page
+
+│
+
+├── Product Listing
+
+│      ├── Product Search
+
+│      ├── Product Sidebar
+
+│      ├── Product Grid
+
+│      ├── Product Card
+
+│      └── Pagination
+
+│
+
+└── Product Details
+
+       ├── Product Hero
+
+       ├── Product Overview
+
+       ├── Product Specifications
+
+       └── Related Products
 ```
+
+---
+
+# 🔄 Application Flow
+
+```text
+Home
+
+↓
+
+Products
+
+↓
+
+Search / Filter
+
+↓
+
+Pagination
+
+↓
+
+Product Details
+
+↓
+
+Related Products
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/surgeonslab.git
+```
+
+Navigate to the project
+
+```bash
+cd surgeonslab
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+# 📱 Responsive Support
+
+- ✅ Mobile
+- ✅ Tablet
+- ✅ Laptop
+- ✅ Desktop
+
+---
+
+# ♿ Accessibility
+
+- Semantic HTML
+- Responsive Layout
+- Keyboard Accessible Navigation
+- Image alt attributes
+- Hover & Focus States
+
+---
+
+# 🚀 Performance Optimizations
+
+- Component Reusability
+- Lazy Loading Images
+- React Memoization (`useMemo`)
+- Efficient State Management
+- Client-side Routing
+
+---
+
+# 📝 Future Improvements
+
+- Backend API Integration
+- User Authentication
+- Wishlist
+- Shopping Cart
+- Product Comparison
+- Dark Mode
+- Product Reviews
+- Image Gallery
+
+---
+
+# 👨‍💻 Author
+
+**Narmathi GP**
+
+GitHub:
+https://github.com/yourusername
+
+LinkedIn:
+https://linkedin.com/in/yourprofile
